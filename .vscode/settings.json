@@ -1,0 +1,37 @@
+{
+    "search.exclude": {
+        "**/node_modules": true,
+        "**/bower_components": true,
+        "**/*.o":true,
+        "**/*.su":true, 
+        "**/*.cmd":true,
+        "Documentation":true,      
+    },
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,  
+        "**/*.o":true,
+        "**/*.su":true, 
+        "**/*.d":true,
+
+        "**/*.mod*":true,
+        "**/*.cmd":true,
+        "**/.tmp_versions/":true,
+        "**/modules.order":true,
+        "**/Module.symvers":true,
+        "**/Mkfile.old":true,
+        "**/dkms.conf":true,
+        "Documentation":true, 
+    },
+    "files.associations": {
+        "limits": "c",
+        "*.tcc": "c",
+        "typeinfo": "c",
+        "cstdlib": "c",
+        "type_traits": "cpp",
+        "cstdio": "c"
+    }
+}
